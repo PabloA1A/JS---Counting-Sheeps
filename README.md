@@ -36,4 +36,23 @@ npm run test:unit
 
 # JS - Counting Sheeps
 
-## 
+## Instructions: 
+
+"true" are sheep, "false" are wolves .... How many sheep are there? The function will receive a list of boolean values.
+
+Example function:
+function countSheep(list) { }
+
+Requirements:- The following use cases should be tested:
+
+Input:
+1) list = [ true, true, true, true, false, false, false, true, true, true, true, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, false, false, false, false, true, true, true, true, true]
+2) list = [ false, false, false, false ]
+
+Result:
+1) There are 17 sheep in total.
+2) OOPS!!! The wolves ate the sheep.
+
+# Files:
+## SRC => booleans.js
+## SRC => TESTS => booleans.test.js
